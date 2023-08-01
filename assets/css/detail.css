@@ -1,0 +1,42 @@
+.detail div h4,
+h3 {
+  color: #0f8b8d;
+  font-size: 50px;
+}
+
+.product-dtl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.txt-dtl {
+  display: flex;
+  flex-direction: column;
+}
+
+.ds {
+  display: flex;
+  justify-content: center;
+}
+
+.ds-ds {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+.btn-red-ds {
+  width: 20%;
+  padding: 12px 40px;
+  background-color: #a8201a;
+  border-radius: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.btn-red-ds a {
+  text-decoration: none;
+  color: azure;
+}

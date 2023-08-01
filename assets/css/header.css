@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: futura bk BT;
+}
+
+header {
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  padding: 15px 0px;
+}
+
+.navbar ul {
+  color: aliceblue;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  padding-right: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: azure;
+}
+
+.navbar a:hover {
+  color: orange;
+}
+
+.logo-hd {
+  padding-left: 30px;
+}
+.logo-hd img {
+  width: 335px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 200vh;
+}
+
+.navbar.scrolling-active {
+  background-color: #143642;
+  padding: 20px 0px;
+}

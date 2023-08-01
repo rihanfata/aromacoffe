@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: futura bk BT;
+}
+
+.bg-header {
+  display: flex;
+  flex-direction: row;
+  background-image: url("../img/coffe-header.png");
+  height: 700px;
+  background-color: rgba(20, 54, 66, 0.7);
+  background-blend-mode: multiply;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.txt-bg {
+  width: 1170px;
+  padding: 250px 15px;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.txt-bg h1 {
+  font-size: 80px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.txt-bg p {
+  font-size: 25px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.waw-section {
+  display: flex;
+  flex-direction: row;
+  width: 925px;
+  height: 460px;
+  margin: 0 auto;
+  padding-top: 100px;
+  column-gap: 50px;
+}
+
+.waw img {
+  width: 335px;
+  height: 400px;
+  border-radius: 30px;
+}
+
+.ps-section {
+  display: flex;
+  flex-direction: row;
+  width: 925px;
+  height: 460px;
+  margin: 0 auto;
+  padding-top: 100px;
+  column-gap: 50px;
+}
+
+.ps img {
+  width: 335px;
+  height: 335px;
+  border-radius: 30px;
+}
+
+.ho-section {
+  display: flex;
+  flex-direction: row;
+  width: 925px;
+  height: 460px;
+  margin: 0 auto;
+  column-gap: 50px;
+}
+
+.ho img {
+  width: 453px;
+  height: 453px;
+  border-radius: 30px;
+}
+
+section div h4 {
+  font-size: 40px;
+  color: #0f8b8d;
+  width: 350px;
+  padding-bottom: 20px;
+}
+
+.gb {
+  border-bottom: 5px solid #ec9a29;
+  margin: 20px 0px;
+}
+
+.btn-red {
+  padding: 12px 40px;
+  background-color: #a8201a;
+  display: inline-block;
+  border-radius: 30px;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.btn-red a {
+  text-decoration: none;
+  color: azure;
+}
+
+section div p {
+  font-size: 30px;
+  color: #143642;
+}
+
+.feeds-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feeds {
+  width: 927px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 108px;
+}
+
+.feeds img {
+  width: 237px;
+  height: 237px;
+}
+
+.feeds-section div h1 {
+  padding: 50px;
+  color: #0f8b8d;
+  font-size: 48px;
+}
+
+.feeds-section div h1 span {
+  color: #ec9a29;
+}
+
+.am {
+  text-align: center;
+}

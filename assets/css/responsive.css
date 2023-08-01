@@ -1,0 +1,16 @@
+@media (max-width: 670px) {
+  .txt-bg {
+    width: 100%;
+    padding: 200px 10px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+  }
+  .txt-bg h1 {
+    font-size: 40px;
+  }
+
+  .txt-bg p {
+    font-size: 15px;
+  }
+}

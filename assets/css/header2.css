@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: futura bk BT;
+}
+
+header {
+  background-color: rgba(15, 139, 141, 0.7);
+  position: fixed;
+  width: 100%;
+  padding: 15px 0px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+nav {
+  background-color: rgba(100, 100, 100 0.7);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  color: aliceblue;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  padding-right: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: azure;
+}
+
+nav a:hover {
+  color: orange;
+}
+
+.logo-hd {
+  padding-left: 30px;
+}
+.logo-hd img {
+  width: 335px;
+}

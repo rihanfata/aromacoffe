@@ -1,0 +1,52 @@
+main {
+  text-align: center;
+  align-items: center;
+}
+section {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+section div h1 {
+  color: #0f8b8d;
+}
+
+.mp {
+  width: 927px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 100px;
+  justify-content: center;
+  padding: 100px 200px;
+}
+
+.mp a:hover {
+  transform: scale(1.1);
+}
+
+.txt-mp-center {
+  display: flex;
+  justify-content: center;
+}
+.txt-mp {
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.txt-mp p {
+  color: white;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+section img {
+  background-image: url("../img/coffee-background.png");
+  background-size: cover;
+  border-radius: 20px;
+  width: 216px;
+  padding-top: 80px;
+}
